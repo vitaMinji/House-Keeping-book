@@ -10,7 +10,5 @@ public class Sub1Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sub1);
-        Toast.makeText(Sub1Activity.this,"두번째 Activity 입니다.",Toast.LENGTH_SHORT).show();
-
     }
 }
