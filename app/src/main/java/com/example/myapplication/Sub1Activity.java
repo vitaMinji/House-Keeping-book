@@ -22,7 +22,9 @@ public class Sub1Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 int usedMoney;
-                usedMoney = Integer.parseInt(editText1.getText().toString()); //정수값 가져오기
+                usedMoney = Integer.parseInt(editText1.getText().toString());
+                //Intent todayMoney = new Intent(,MainActivity.class);//앞에 뭘 넣어야 하지?
+
                 Intent intent = new Intent(Sub1Activity.this,MainActivity.class);
                 startActivity(intent);
 
@@ -33,9 +35,3 @@ public class Sub1Activity extends AppCompatActivity {
     }
 
 }
-//
-//
-//    String symbolvalue;
-//
-//symbolvalue = edit.getText().toString();
-//
